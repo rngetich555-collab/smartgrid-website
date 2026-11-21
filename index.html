@@ -439,6 +439,76 @@
             }
         }
 
+  /* GLOBAL EDUCATION SECTION */
+
+.global-education {
+    background: var(--black);
+    padding: 100px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.global-education .section-heading {
+    max-width: 850px;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+
+.global-education .section-heading h2 {
+    color: var(--white);
+}
+
+.global-education .section-heading h2 span {
+    color: var(--lime);
+}
+
+.global-intro {
+    max-width: 850px;
+    margin: 0 auto 45px;
+    text-align: center;
+    color: var(--muted);
+    line-height: 1.8;
+}
+
+.global-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.global-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+}
+
+.global-card h3 {
+    color: var(--lime);
+    margin-bottom: 12px;
+}
+
+.global-card p {
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+.global-closing {
+    text-align: center;
+    color: var(--lime);
+    font-weight: 600;
+    margin-top: 40px;
+    line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+    .global-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .global-education {
+        padding: 70px 0;
+    }
+}
     </style>
 </head>
 
@@ -462,6 +532,7 @@
             <div class="nav-links" id="navLinks">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
+                <a href="#global-education">Global Education</a>
                 <a href="#features">Platform</a>
                 <a href="#purpose">Our Vision</a>
                 <a href="#contact" class="nav-button">Get in touch</a>
@@ -572,7 +643,81 @@
         </div>
 
     </section>
+    <!-- GLOBAL EDUCATION SECTION -->
 
+    <section class="global-education" id="global-education">
+
+        <div class="container">
+
+            <div class="eyebrow">
+                Global Education
+            </div>
+
+            <div class="section-heading">
+                <h2>
+                    One Platform. <span>Every Curriculum.</span>
+                    A World of Possibilities.
+                </h2>
+            </div>
+
+            <p class="global-intro">
+                Education is diverse, and every country and institution
+                has its own academic structure. SmartGrid is being
+                designed to adapt to different education systems,
+                curricula and assessment frameworks worldwide.
+                Schools should not have to change how they educate
+                to use SmartGrid. Our platform is designed to adapt
+                to their educational needs.
+            </p>
+
+            <div class="global-grid">
+
+                <div class="global-card">
+                    <h3>National Curricula</h3>
+                    <p>
+                        Accommodating country-specific education
+                        systems, academic structures and
+                        assessment requirements.
+                    </p>
+                </div>
+
+                <div class="global-card">
+                    <h3>International Programmes</h3>
+                    <p>
+                        Designed with the flexibility to support
+                        internationally recognised educational
+                        programmes and frameworks.
+                    </p>
+                </div>
+
+                <div class="global-card">
+                    <h3>Competency-Based Education</h3>
+                    <p>
+                        Supporting different approaches to
+                        competency-based learning, assessment
+                        and learner progress.
+                    </p>
+                </div>
+
+                <div class="global-card">
+                    <h3>Local Education Frameworks</h3>
+                    <p>
+                        Flexible enough to accommodate locally
+                        developed academic structures and
+                        institution-specific requirements.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="global-closing">
+                Different education systems. One adaptable platform.
+                A world of connected schools.
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- PLATFORM FEATURES -->
 
